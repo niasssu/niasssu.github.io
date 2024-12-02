@@ -5,7 +5,6 @@ a {text-decoration:none; color:inherit} a:hover {color:#7dd}
 .main {background-color:#fff; width:50%; border-radius:0.75rem; padding:5px; margin:10px; box-sizing:border-box;}
 .dark {background-color:#224; color:#aaa;}
 .chbx {background-color:#000; color:#fff; border-radius:1rem; padding:10px; margin:5px; text-align:right; height:fit-content; 
-img {float:left; width:17%; border-radius:1rem;}
-}
+} .chbx img {float:left; width:17; border-radius:1rem;}
 .a {box-shadow:#add 0px 1px 5px; border-right:3px solid #7dd;}
 .e {box-shadow:#fdc 0px 1px 5px; border-right:3px solid #fea;}
