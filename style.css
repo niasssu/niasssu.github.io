@@ -1,10 +1,21 @@
 body {background-color:#ace; font-family:"Letter Gothic","Consolas",monospace;}
 h3 {font-family:"Courier New",monospace;}
 p {font-size:11pt;}
-a {text-decoration:none; color:inherit} a:hover {color:#7dd}
-.main {background-color:#fff; width:50%; border-radius:0.75rem; padding:5px; margin:10px; box-sizing:border-box;}
+a {text-decoration:none; color:inherit;
+} a:hover {color:#7dd}
+div {box-sizing:border-box; border-radius:1rem;}
+
+.main {background-color:#fff; width:50%; padding:5px; margin:10px;}
 .dark {background-color:#224; color:#aaa;}
-.chbx {background-color:#000; color:#fff; border-radius:1rem; padding:10px; margin:5px; text-align:right; height:fit-content; 
-} .chbx img {float:left; width:17; border-radius:1rem;}
-.a {box-shadow:#add 0px 1px 5px; border-right:3px solid #7dd;}
-.e {box-shadow:#fdc 0px 1px 5px; border-right:3px solid #fea;}
+
+.chbx {background-color:#000; color:#fff; padding:10px; margin:5px; text-align:right; height:fit-content; 
+}
+.chbx.a {box-shadow:#aee 0px 1px 5px; border-right:3px solid #7dd;}
+.chbx.e {box-shadow:#fda 0px 1px 5px; border-right:3px solid #fea;}
+.chbx img {float:left; width:17%;}
+
+
+.idk {display:flex; flex-flow:row wrap; justify-content:space-around;}
+.idk div {width:45%; height:fit-content;}
+.idk div.a {border:1ch solid #aee;}
+.idk div.e {border:1ch solid #fda;}
