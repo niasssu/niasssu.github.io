@@ -16,7 +16,7 @@ div {background-color:#fff; box-sizing:border-box; border-radius:1rem; height:fi
 .chbx img {float:left; width:17%; border-radius:1rem;}
 
 
-.idk {display:flex; flex-flow:row wrap; justify-content:space-around;}
+.idk {display:flex; flex-flow:row wrap; justify-content:center;}
 .idk div {width:45%; text-align:center;}
 .idk div.a {border:1ch solid #aee;}
 .idk div.e {border:1ch solid #fda;}
