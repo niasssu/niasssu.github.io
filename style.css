@@ -11,12 +11,12 @@ div {background-color:#fff; box-sizing:border-box; border-radius:1rem; height:fi
 
 .chbx {background-color:#000; color:#fff; padding:10px; margin:5px; text-align:right; 
 }
-.chbx.a {box-shadow:#aee 0px 1px 5px; border-right:3px solid #7dd;}
-.chbx.e {box-shadow:#fda 0px 1px 5px; border-right:3px solid #fea;}
+.chbx.a {box-shadow:#aee 0px 1px 5px; border-right:1em solid #7dd;}
+.chbx.e {box-shadow:#fda 0px 1px 5px; border-right:1em solid #fea;}
 .chbx img {float:left; width:17%; border-radius:1rem;}
 
 
-.idk {display:flex; flex-flow:row wrap; justify-content:center;}
+.idk {display:flex; flex-flow:row wrap; justify-content:flex-end; align-content:flex-start;}
 .idk div {width:45%; text-align:center;}
 .idk div.a {border:1ch solid #aee;}
 .idk div.e {border:1ch solid #fda;}
