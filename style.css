@@ -3,8 +3,9 @@ h3 {font-family:"Courier New",monospace;}
 p {font-size:11pt;}
 a {text-decoration:none; color:inherit;
 } a:hover {color:#7dd}
-div {background-color:#fff; box-sizing:border-box; border-radius:1rem; height:fit-content; overflow:scroll;}
+div {background-color:#fff; box-sizing:border-box; border-radius:1rem; height:fit-content; overflow:scroll; scrollbar-width:none;}
 /* although you don't need overflow:scroll; when you have height:fit-content, this prevents image spill-over. */
+/* scrollbar-width:none; is in place because scrollbars appear on the divs in chromium browsers.*/
 
 .main {width:50%; padding:5px; margin:10px;}
 .dark {background-color:#224; color:#aaa;}
@@ -15,8 +16,11 @@ div {background-color:#fff; box-sizing:border-box; border-radius:1rem; height:fi
 .chbx.e {box-shadow:#fda 0px 1px 5px; border-right:1em solid #fea;}
 .chbx img {float:left; width:17%; border-radius:1rem;}
 
-
-.idk {display:flex; flex-flow:row wrap; justify-content:flex-end; align-content:flex-start;}
+.idk {display:flex; flex-flow:row wrap; justify-content:space-around; align-content:flex-start;}
 .idk div {width:45%; text-align:center;}
 .idk div.a {border:1ch solid #aee;}
 .idk div.e {border:1ch solid #fda;}
+
+.chrBx {margin-inline:1ch; padding:12px; background-color:#5ac}
+.chrBx h3 {margin-top:0px; background-color:#fff;}
+.chrBx img {width:50%; border-radius:0.5em;}
